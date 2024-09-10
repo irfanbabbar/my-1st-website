@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    
+    <style>
+
+header {
+    background-color: #333;
+    color: rgb(216, 204, 204);
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(230, 221, 221);
+    text-decoration: none;
+}
+
+
+        .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+}
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(231, 219, 219);
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+}
+
+footer span{
+    color: cyan;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contect.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Gallery</h1><br><br>
+        <div class="gallery">
+            <img src="image (1).jpeg" alt="Image 1">
+            <img src="imge (2).jpeg" alt="Image 2">
+            <img src="image(3).jpeg" alt="Image 3">
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 this Project made by <span>Irfan Ali Babbar</span></p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
